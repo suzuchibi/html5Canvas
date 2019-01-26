@@ -1,0 +1,61 @@
+body, div, header, main, section, footer, ul, li, p, a {
+  margin: 0;
+  padding: 0;
+}
+ul, li, p, a {
+  line-height: 1.8em;
+}
+body {
+  font-family:'Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3',Meiryo,'ＭＳ Ｐゴシック', sans-serif;
+  background: #001c30;
+}
+#canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+#web {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0; 
+  z-index: 1;
+}
+#web h1 {
+  color: #cdefff;
+  font-size: 72px;
+  text-align: center;
+  letter-spacing: 2.4px;
+  line-height: 1.5em;
+  text-shadow: 0 0 20px #1d9eda;
+  margin: 240px 0 32px 0;
+  padding: 0;
+}
+#web p,
+#web footer p small {
+  text-align: center;
+}
+#web p {
+  color: #cdefff;
+  font-size: 24px;
+  letter-spacing: 0.8px;
+  line-height: 1.0em;
+  text-shadow: 0 0 20px #1d9eda;
+  margin: 0;
+}
+#web footer {
+  width: 100%;
+  background: #444444;
+  padding: 0 0 8px 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+#web footer p small {
+  color: #e9e9e9;
+  font-size: 10px;
+  line-height: 1.8em;
+  margin: 0;
+  padding: 0;
+}
